@@ -1,0 +1,24 @@
+{
+  "name": "stock-comparison",
+  "version": "1.0.0",
+  "description": "Анализ и сравнение акций с визуализацией денежных потоков",
+  "main": "server.js",
+  "scripts": {
+    "server": "node server.js",
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "start": "concurrently \"npm run server\" \"npm run dev\""
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.2.1",
+    "vite": "^5.0.0",
+    "concurrently": "^8.2.2"
+  }
+}
